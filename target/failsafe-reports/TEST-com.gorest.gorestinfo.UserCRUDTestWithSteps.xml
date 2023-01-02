@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gorest.gorestinfo.UserCRUDTestWithSteps" time="3.697" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sunil\IdeaProjects\serenity-gorest-sunil"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sunil\IdeaProjects\serenity-gorest-sunil"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sunil\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sunil"/>
+    <property name="user.timezone" value="Australia/Brisbane"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sunil"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test001" classname="com.gorest.gorestinfo.UserCRUDTestWithSteps" time="3.697">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.gorest.gorestinfo.UserCRUDTestWithSteps.test001(UserCRUDTestWithSteps.java:28)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Authorization=Bearer 6c8869b06b7b02768418648115d359444252b9ba6428f17dd635d20e4f53a072
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Body:
+{"name":"PrimUser20001","email":"30263xyz@gmail.com","gender":"male","status":"active"}
+HTTP/1.1 404 Not Found
+Date: Sun, 01 Jan 2023 22:41:51 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+link: </assets/application-b212522fc0700166db332c0be0e0e8da03bb17e1017883c28d6bac5e5abe72f8.css>; rel=preload; as=style; nopush
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: a2c2daa8-8c1b-4bdf-85ca-1c6224ced3dc
+x-runtime: 0.027047
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=U6%2Fl9xQoayL%2FNO5zy2xPXZDqHYEyGyhJx4dH4NtdSeCTu%2FvdDsOW4QoQ5D7JkPIDNbWSPzne2JWyo0V%2BO8%2B%2BSHpUqHlq9jQBCyrr3ZA89EZ4BzYmXZ3pVrbqrg3fzN0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 782ec3c52c12bc93-LHR
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+    <title>Page Not Found | GO REST</title>
+    <link rel="stylesheet" href="/assets/application-b212522fc0700166db332c0be0e0e8da03bb17e1017883c28d6bac5e5abe72f8.css" media="all" data-turbolinks-track="reload"/>
+    <script defer="defer" src="/packs/js/application-3d361c652948a6caa881.js" data-turbolinks-track="reload"/>
+    <script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"/>
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"/>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a shape="rect" class="navbar-brand" href="/">
+          <i class="fas fa-exchange-alt"/>
+ Go REST        </a>
+        <button type="button" class="navbar-toggler" aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" data-bs-target="#AppNavBar" data-bs-toggle="collapse">
+          <span class="navbar-toggler-icon"/>
+        </button>
+        <div class="collapse navbar-collapse" id="AppNavBar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/chandamama-stories">
+                <i class="fas fa-cloud-moon"/>
+ Chandamama Stories              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/qa">
+                <i class="fas fa-life-ring"/>
+ Help              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/rest-console">
+                <i class="fab fa-linux"/>
+ Rest Console              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a shape="rect" class="nav-link dropdown-toggle" id="ToolsDropDown" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button">
+                <i class="fas fa-tools"/>
+ Tools              </a>
+              <ul class="dropdown-menu" aria-labelledby="ToolsDropDown">
+                <li class="">
+                  <a shape="rect" class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a>
+                </li>
+                <li class="">
+                  <a shape="rect" class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a>
+                </li>
+                <li class="">
+                  <a shape="rect" class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/consumer/login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-3">
+      <style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style>
+      <div class="card text-white border-secondary bg-dark">
+        <div class="card-header">
+          <h1 class="card-title text-warning">
+            <i class="fas fa-ghost text-white slide-right"/>
+ HTTP: Not Found           </h1>
+        </div>
+        <div class="card-body">
+          <h3 class="leaad code-text">
+            <code class="mb-3">
+              <span>this_page</span>
+.              <em>not_found</em>
+ = true            </code>
+          </h3>
+          <p class="lead code-text">
+            <code class="mb-2">
+              <span>if</span>
+              <b>you_spelt_it_wrong</b>
+              <br clear="none"/>
+                <span>try_again</span>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>
+elsif                 <b>we_screwed_up</b>
+              </span>
+              <br clear="none"/>
+                <em>print</em>
+              <i>"We're really sorry about that."</i>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>end</span>
+            </code>
+            <code class="mb-2">
+              <span>redirect_to</span>
+              <em>home_page</em>
+            </code>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5"/>
+    <div class="container">
+      <div class="footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">© Go Rest 2023</li>
+          <li class="list-inline-item float-lg-end">
+            <a shape="rect" href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item float-lg-end me-3">
+            <a shape="rect" href="/contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[165 [main] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+536 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: User CRUD test with steps
+625 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001
+-------------------------------------------------------------------
+625 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+]]></system-err>
+  </testcase>
+</testsuite>
